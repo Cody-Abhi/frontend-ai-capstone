@@ -1,6 +1,6 @@
 # FlyRank Internship Phase 1
 
-FlyRank Internship Phase 1 is a professional starter repository built with Node.js, Git, GitHub, Cursor IDE, JavaScript, Vite, and React. It is designed to demonstrate a clean AI-assisted development workflow, strong documentation habits, and a beginner-friendly project structure.
+FlyRank Internship Phase 1 is a professional starter repository built with Node.js, Git, GitHub, Cursor IDE, JavaScript, Vite, and React. It is designed to demonstrate a clean AI-assisted development workflow, strong documentation habits, and a beginner-friendly project structure that reviewers can verify quickly.
 
 ## Internship Objective
 
@@ -57,6 +57,14 @@ npm run dev
 
 Open the local URL shown in the terminal, usually `http://localhost:5173`.
 
+## Verification
+
+```bash
+npm run build
+```
+
+Run the build command before submitting the project to confirm the Vite app compiles successfully.
+
 ## Git Workflow
 
 1. Initialize Git with `git init`.
@@ -79,7 +87,15 @@ Open the local URL shown in the terminal, usually `http://localhost:5173`.
 
 ## AI README Review
 
-The README is intentionally written as a review-friendly document, but it should still be improved after an AI critique. The next iteration should make the purpose, setup flow, and internship deliverables even easier to scan.
+Before:
+
+- The README explained the project, but it did not clearly separate setup, workflow, and review steps.
+- A reviewer had to infer what to check first.
+
+After:
+
+- The README now gives a direct summary, a clear folder structure, a defined Git workflow, and a build verification step.
+- The documentation is easier to scan and easier to defend in an internship review.
 
 ## Future Improvements
 
